@@ -17,14 +17,15 @@ def main() -> None:
     tello.rotate_counter_clockwise(90) #left
     tello.move_forward(400)
 
+
     tello.rotate_counter_clockwise(90) #left
-    tello.move_forward(150) 
+    tello.move_forward(130) 
     tello.rotate_clockwise(90) #right
     tello.move_forward(275)
 
     
     tello.rotate_clockwise(90) #right
-    tello.move_forward(240)
+    tello.move_forward(370)
 
 
 
